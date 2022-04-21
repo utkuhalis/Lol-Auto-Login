@@ -1,0 +1,83 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Lol-Auto-Login
+</name>
+</assembly>
+<members>
+<member name="T:Lol_Auto_Login.My.MyWpfExtension">
+ <summary>
+ WPF için Benim Ad Uzayım'daki uygun olan özellikleri tanımlamak için kullanılan modül
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:Lol_Auto_Login.My.MyWpfExtension.Application">
+ <summary>
+ Çalışan uygulamanın uygulama nesnesini döndürür
+ </summary>
+</member>
+<member name="P:Lol_Auto_Login.My.MyWpfExtension.Computer">
+ <summary>
+ Ana bilgisayar hakkında bilgi döndürür.
+ </summary>
+</member>
+<member name="P:Lol_Auto_Login.My.MyWpfExtension.User">
+ <summary>
+ Geçerli kullanıcı için bilgi döndürür.  Uygulamayı geçerli 
+ Windows kullanıcı kimlik bilgileri ile çalıştırmak istiyorsanız, My.User.InitializeWithWindowsUser() çağırın.
+ </summary>
+</member>
+<member name="P:Lol_Auto_Login.My.MyWpfExtension.Log">
+ <summary>
+ Uygulama günlüğünü döndürür. Dinleyiciler, uygulamanın yapılandırma dosyası tarafından yapılandırılabilir.
+ </summary>
+</member>
+<member name="P:Lol_Auto_Login.My.MyWpfExtension.Windows">
+ <summary>
+ Projede tanımlanan Windows koleksiyonunu döndürür.
+ </summary>
+</member>
+<member name="T:Lol_Auto_Login.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Lol_Auto_Login.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Lol_Auto_Login.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:Lol_Auto_Login.Application">
+<summary>
+Application
+</summary>
+</member>
+<member name="M:Lol_Auto_Login.Application.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="M:Lol_Auto_Login.Application.Main">
+<summary>
+Application Entry Point.
+</summary>
+</member>
+<member name="T:Lol_Auto_Login.MainWindow">
+<summary>
+MainWindow
+</summary>
+</member>
+<member name="M:Lol_Auto_Login.MainWindow.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+</members>
+</doc>

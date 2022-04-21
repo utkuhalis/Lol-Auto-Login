@@ -1,0 +1,40 @@
+﻿<Window x:Class="MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:gif="http://wpfanimatedgif.codeplex.com"
+        xmlns:local="clr-namespace:Lol_Auto_Login"
+        mc:Ignorable="d"
+        Title="Lol Auto Login" 
+        Height="550" 
+        MaxHeight="550" 
+        MinHeight="550" 
+        Width="1000" 
+        MaxWidth="1000" 
+        MinWidth="1000">
+    <Grid>
+
+        <Canvas Background="#111" HorizontalAlignment="Left" Height="auto" VerticalAlignment="Stretch" Width="300">
+            <TextBlock TextAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Text="Created By kodla.io" VerticalAlignment="Top" Canvas.Left="10" Canvas.Top="493" Width="280" Foreground="White"/>
+            <Border MouseUp="Login" BorderBrush="#FFD14A0B" BorderThickness="2" Height="47" Canvas.Left="10" Canvas.Top="249" Width="280" CornerRadius="20" Background="#0CD14A0B">
+                <TextBlock x:Name="processBtn" TextAlignment="Center" Text="Login" HorizontalAlignment="Left" VerticalAlignment="Top" Width="260" Height="16" Background="{x:Null}" Foreground="White" Margin="8,11,0,0"/>
+            </Border>
+            <TextBlock x:Name="clientStatus" TextAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" Text="Client Waiting..." VerticalAlignment="Top" Canvas.Left="10" Canvas.Top="227" Width="280" Foreground="White" Height="17"/>
+            <Image HorizontalAlignment="Left" Height="145" VerticalAlignment="Top" Width="280" Source="assets/logo.png" Stretch="UniformToFill" Canvas.Left="10" Canvas.Top="10"/>
+            <TextBlock x:Name="GameData" FontSize="10" TextAlignment="Center" Canvas.Left="10" TextWrapping="Wrap" Text="N/A" Canvas.Top="473" Height="15" Width="280" Foreground="White"/>
+        </Canvas>
+
+        <Image 
+            gif:ImageBehavior.AutoStart="True"
+            gif:ImageBehavior.AnimatedSource="assets/banner.gif" 
+            RenderOptions.BitmapScalingMode="HighQuality" 
+            RenderOptions.EdgeMode="Aliased"
+            HorizontalAlignment="Left" 
+            Height="auto" 
+            Margin="300,0,0,0" 
+            VerticalAlignment="Stretch" 
+            Width="692" 
+            Stretch="Fill"/>
+    </Grid>
+</Window>
