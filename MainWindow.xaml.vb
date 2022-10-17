@@ -21,8 +21,8 @@ Class MainWindow
     Dim isOK = False
     Dim GamePath = My.Computer.FileSystem.ReadAllText(AppStart() & "\assets\game_path.ini")
     Dim GameArgs = "--launch-product=league_of_legends --launch-patchline=live"
-    Dim Username = "2bubilol2"
-    Dim Password = "hepsibenim."
+    Dim Username = "**uid**"
+    Dim Password = "**upw**"
     Dim ClientId = "RiotClientUx"
 
     Function AppStart() As String
